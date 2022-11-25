@@ -1,0 +1,153 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="dog_owners" transaction-type="RESOURCE_LOCAL">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/dog_owners?useSSL=false"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+    </persistence-unit>
+
+
+    <persistence-unit name="spacecrafts" transaction-type="RESOURCE_LOCAL">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/spacecrafts?useSSL=false"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+
+        </persistence-unit>
+
+        <persistence-unit name="animals" transaction-type="RESOURCE_LOCAL">
+
+            <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+            <properties>
+                <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/animals?useSSL=false"/>
+
+                <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+                <property name="hibernate.connection.username" value="root"/>
+                <property name="hibernate.connection.password" value=""/>
+                <property name="hibernate.archive.autodetection" value="class"/>
+                <property name="hibernate.show_sql" value="true"/>
+                <property name="hibernate.format_sql" value="true"/>
+                <property name="hibernate.hbm2ddl.auto" value="create"/>
+            </properties>
+
+        </persistence-unit>
+
+<persistence-unit name="vehicles" transaction-type="RESOURCE_LOCAL">
+
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <properties>
+        <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/vehicles?useSSL=false"/>
+
+        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+        <property name="hibernate.connection.username" value="root"/>
+        <property name="hibernate.connection.password" value=""/>
+        <property name="hibernate.archive.autodetection" value="class"/>
+        <property name="hibernate.show_sql" value="true"/>
+        <property name="hibernate.format_sql" value="true"/>
+        <property name="hibernate.hbm2ddl.auto" value="create"/>
+    </properties>
+
+</persistence-unit>
+
+<persistence-unit name="public_transport" transaction-type="RESOURCE_LOCAL">
+
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+    <properties>
+        <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/public_transport?useSSL=false"/>
+
+        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+        <property name="hibernate.connection.username" value="root"/>
+        <property name="hibernate.connection.password" value=""/>
+        <property name="hibernate.archive.autodetection" value="class"/>
+        <property name="hibernate.show_sql" value="true"/>
+        <property name="hibernate.format_sql" value="true"/>
+        <property name="hibernate.hbm2ddl.auto" value="create"/>
+    </properties>
+
+</persistence-unit>
+
+    <persistence-unit name="game_store" transaction-type="RESOURCE_LOCAL">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/game_store?useSSL=false"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+
+    </persistence-unit>
+
+    <persistence-unit name="hospital" transaction-type="RESOURCE_LOCAL">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/hospital?useSSL=false"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+
+    </persistence-unit>
+
+    <persistence-unit name="mechanic" transaction-type="RESOURCE_LOCAL">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <properties>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/mechanic?useSSL=false"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
